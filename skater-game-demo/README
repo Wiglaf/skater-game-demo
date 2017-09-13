@@ -1,0 +1,63 @@
+Name: Clay Moeller
+
+Clemson Email Address: cmoelle@clemson.edu
+
+Project no: FINAL
+
+Project due date: SUNDAY April 30th @ 8am
+
+Project description: Objective is supposed to be to navigate as far as possible to the right within the game while dodging flying pigs and firing PBR cans at the other skater to cause him to temporarily disappear and then respawn. Distance based game with obstructions. 
+
+The easiest part of this project: I struggled with this portion of the project. 
+
+Problems that I had in completing this project: Here is a full list of my project’s status with explanation:
+————
+1. A preliminary video illustrating the best features of your game. This video must be submitted by 8 AM on Wed, April 26th (10%)-
+-DONE
+
+2. Include in your final submission an mp4 movie that you generated, or make sure the F4 key works so that the TA can generate a movie of your final submission for you.
+-DONE
+
+3. Include a well-controlled player object
+-DONE, player jumps in increments while holding or tapping SPACE to dodge the flying pigs
+
+4. Your game should create the illusion of depth. 
+-DONE
+
+5. An information HUD that appears at the start of the game and remains long enough to enable the user
+to see how to play the game, and how to move the player. Toggle the HUD with F1.
+-DONE, HUD displays, and can be toggled with F1. 
+
+
+6. Projectiles: something flying through the air
+-DONE, but you must be moving forward in-game for animation to continue due to how the game update is tied to the motion of the player.
+
+7. Collision detection that triggers explosions; choose a strategy or use all 3.
+-collision detection = DONE for player;
+-couldn’t get explosions for bullets connecting with AI to work.  
+
+8. Your player and NPCs should explode (chunks and/or frames). Your player should reappear after the explosion completes.
+-DONE
+
+9. Demonstrate object pooling and show pool contents in a HUD.
+-DONE
+
+10. Implement a reset function that restarts your game; toggle reset with “r” key.
+-player location is reset after r is pressed 
+-DONE
+
+11. Music and sound: play music during the game and play sound effects appropriate for game action.
+-Could never get dependencies to satisfy for compiling with music & sound to work on Mac. 
+
+12. Provide a “god” mode for your player; toggle it with “g” key.
+-collision disabled on g press and [G]odMode is highlighted Green
+-DONE
+
+13. AI
+-Couldn’t get AI to work.  Also didn’t make a lot of sense in the context of my game. 
+
+14. Doesn’t crash
+-DONE
+
+
+—-I’ve put even more time into trying to get it to work the way I want with no avail.  There has to be something fundamentally wrong with my code that’s causing the lack of visual results I’ve been working towards. When looking at the code I feel like the AI should explode 

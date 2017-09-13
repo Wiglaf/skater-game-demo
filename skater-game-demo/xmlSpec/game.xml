@@ -1,0 +1,311 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<!-- SPECS -->
+<screenTitle>SKATEBORED- Clay Moeller</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<avgFPSInterval>100</avgFPSInterval>
+<maxFrames>300</maxFrames>
+<username>cmoelle</username>
+
+<view>
+  <width>854</width>
+  <height>450</height>
+</view>
+
+<world>
+  <width>10854</width>
+  <height>450</height>
+</world>
+
+<hud>
+  <x>10</x>
+  <y>10</y>
+  <width>350</width>
+  <height>200</height>
+</hud>
+
+<safeDistance>75</safeDistance>
+
+<numberOfPaintedSprites>8</numberOfPaintedSprites>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+
+<!-- PLAYER SPRITES -->
+<pushSkater>
+  <file>images/sprites/skaterSprite1.png</file>
+  <bullet>beer</bullet>
+  <startLoc x="50" y="200"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <minFrameDelay>1.4</minFrameDelay>
+  <frameWidth>110</frameWidth>
+  <frameHeight>142</frameHeight>
+  <width></width>
+  <height></height>
+  <speedX>-200</speedX>
+  <speedY>1</speedY>
+  <slowDown>0.99</slowDown>
+  <transparency>true</transparency>
+  <jumpMax>200</jumpMax>
+  <jumpSpeed>-300</jumpSpeed>
+  <fallSpeed>300</fallSpeed>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</pushSkater>  
+
+<pushSkaterL>
+  <file>images/sprites/skaterSprite1Left.png</file>
+  <bullet>beer</bullet>
+  <startLoc x="500" y="200"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth>110</frameWidth>
+  <frameHeight>142</frameHeight>
+  <width></width>
+  <height></height>
+  <speedX>-200</speedX>
+  <speedY>1</speedY>
+  <transparency>true</transparency>
+  <jumpMax>200</jumpMax>
+  <jumpSpeed>-300</jumpSpeed>
+  <fallSpeed>300</fallSpeed>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</pushSkaterL>  
+
+<!-- AI SPRITES -->
+<aiSkater>
+  <file>images/sprites/skaterSprite2.png</file>
+  <bullet>beer</bullet>
+  <startLoc x="500" y="200"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth>110</frameWidth>
+  <frameHeight>142</frameHeight>
+  <width></width>
+  <height></height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</aiSkater>
+
+<aiSkaterL>
+  <file>images/sprites/skaterSprite2Left.png</file>
+  <bullet>beer</bullet>
+  <startLoc x="500" y="200"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth>110</frameWidth>
+  <frameHeight>142</frameHeight>
+  <width></width>
+  <height></height>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</aiSkaterL>
+
+
+<!-- PROJECTILES -->
+<beer>
+  <file>images/sprites/beerSprite.png</file>
+  <interval>300</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+</beer>
+
+<!-- NPC'S -->
+<helicopter>
+  <file>images/sprites/helicopter.png</file>
+  <startLoc x="500" y="10"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</helicopter> 
+
+<helicopterL>
+  <file>images/sprites/helicopterLeft.png</file>
+  <startLoc x="500" y="10"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>-200</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</helicopterL>   
+
+<flyingPig>
+  <file>images/sprites/flyingPigSprite1.png</file>
+  <startLoc x="950" y="100"/>   
+  <frames>3</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>-100</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</flyingPig>
+
+<flyingPigL>
+  <file>images/sprites/flyingPigSprite1Left.png</file>
+  <startLoc x="1000" y="30"/>
+  <frames>3</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>-200</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</flyingPigL> 
+
+<flyingDragon>
+  <file>images/sprites/dragonSpriteRight.png</file>
+  <startLoc x="1000" y="30"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</flyingDragon> 
+
+<flyingDragonL>
+  <file>images/sprites/dragonSpriteLeft.png</file>
+  <startLoc x="1000" y="30"/>
+  <frames>4</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</flyingDragonL> 
+
+<lightningSprite>
+  <file>images/sprites/lightningSprite.png</file>
+  <startLoc x="1000" y="30"/>
+  <frames>8</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</lightningSprite> 
+
+<movingCloud>
+  <file>images/sprites/cloudSprite.png</file>
+  <startLoc x="1000" y="210"/>
+  <frames>1</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>-60</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</movingCloud>   
+
+<kingKong>
+  <file>images/sprites/kingKongSprite.png</file>
+  <startLoc x="1039" y="41"/>
+  <frames>1</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</kingKong>   
+
+<asteroidOne>
+  <file>images/sprites/asteroidSpriteOne.png</file>
+  <startLoc x="200" y="-100"/>
+  <frames>5</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>-100</speedY>
+  <transparency>false</transparency>
+</asteroidOne>
+
+<asteroidTwo>
+  <file>images/sprites/asteroidSpriteTwo.png</file>
+  <startLoc x="100" y="-100"/>
+  <frames>5</frames>
+  <frameInterval>65</frameInterval>
+  <frameWidth></frameWidth>
+  <frameHeight></frameHeight>
+  <speedX>0</speedX>
+  <speedY>-100</speedY>
+  <transparency>false</transparency>
+</asteroidTwo>
+
+
+<!-- TEXTURES -->
+<gradientSky>
+  <file>images/gradientSky.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</gradientSky>
+
+<cityscape>
+  <file>images/cityscape.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</cityscape>
+
+<brickRoofPath>
+  <file>images/brickRoofPath.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</brickRoofPath>
+
+<clouds>
+  <file>images/clouds.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</clouds>
+
+</GameData>
